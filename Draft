@@ -1,0 +1,45 @@
+Constellatin UI
+
+PSEUDOCODE:
+START
+Create an empty map with no milestones
+Set total XP to 0
+REPEAT
+    Display menu:
+        1. Add Milestones (remaining ___)
+        2. View Current Milestone and tasks
+        3. Edit milestone 
+        4.View Completed tasks
+        5. View Total XP
+        6. Exit
+    Ask the user to choose an option
+    IF choice is 1 THEN
+        Ask for milestone name
+        Ask for further information 
+        IF user added TASK THEN
+            Set reward to 10 XP
+        ELSE IF user added INSTRUCTIONS or STEPS THEN
+            Set reward to 5 XP
+              END IF
+        Add the milestone to milestone path list
+        Display "Milestone Added"
+    ELSE IF choice is 2 THEN
+        Display all active tasks and milestones 
+    ELSE IF choice is 3 THEN
+        Display milestone path
+        Ask the user which milestone to edit
+        IF user changed milestone status to Completed
+         THEN Add the quest reward to total XP and display "Quest     Completed"
+ELSE input what user input to milestone
+    ELSE IF choice is 4 THEN
+        Display all completed tasks and milestones
+    ELSE IF choice is 5 THEN
+        Display total XP
+    ELSE IF choice is 6 THEN
+        Display "See you next time, friend
+        END PROGRAM
+    ELSE
+        Display "Invalid choice"
+    END IF
+UNTIL the user chooses Exit
+END
